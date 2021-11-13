@@ -1,0 +1,18 @@
+{
+  "name": "starnotary",
+  "version": "1.0.0",
+  "description": "**PROJECT for the Blockchain Developer Nanodegree by Udacity** 1. Truffle Version: 5.4.14 - OpenZeppelin Version: 2.3.0 2. ERC-721 Token Name: 'The Coolest Token' 3. ERC-721 Token Symbol: 'TCT' 4. Smart Contract Address: https://rinkeby.etherscan.io/address/0xcd5981D3A0abd7E3e034f11118582F1A29Ea5C8A",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.3.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
