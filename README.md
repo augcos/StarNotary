@@ -1,6 +1,6 @@
 # Decentralized Star Notary Service Project
 ## Introduction
-This code is part of the Decentralized Star Notary Service Project for the Blockchain Developer Nanodegree by Udacity. The goal of this project is to implement a notary sistem to create, track and exchange ERC721 tokens on the ethereum network. For this project, an ERC-721 token was created 
+This code is part of the Decentralized Star Notary Service Project for the Blockchain Developer Nanodegree by Udacity. The goal of this project is to implement a notary sistem to create, track and exchange ERC721 tokens on the ethereum network. For this project, a custom ERC-721 token called The Coolest Token (TCT) was implemented and deployed to the Rinkeby testnet.
 
 ## Development
 The project vas developed using the following software:
@@ -17,6 +17,13 @@ Before running this project in your local system, you will need to have Node.js,
 ```
 npm install
 ```
+
+## Test the project
+If you want to modify the testing of the project, you can modify the TestStartNotary.js file in the Test folder. To test the project, run the following commands:
+```
+truffle compile
+truffle test
+``` 
 
 ## Run the project
 # Deploy to a local blockchain
@@ -36,10 +43,4 @@ First start the Truiffle development enviroment. Run the following commands to c
 compile
 migrate --reset --network rinkeby
 ```
-In order for this deployment to be successfull, you will need to do two changes to the project. First, create a file in the same directory as truffle-config.js named .secret with the mnemonic to you ethereum account. Next, add your Infura endpoint address to the infuraKey
-
-**PROJECT for the Blockchain Developer Nanodegree by Udacity**
-1. Truffle Version: 5.4.14 - OpenZeppelin Version: 2.3.0
-2. ERC-721 Token Name: 'The Coolest Token'
-3. ERC-721 Token Symbol: 'TCT'
-4. Smart Contract Address: https://rinkeby.etherscan.io/address/0xa3bf4F8A3B5c3B6ee74aB018ecCFf5a1b89D1c04
+In order for this deployment to be successfull, you will need to do two changes to the project. First, create a file in the same directory as truffle-config.js named .secret with the mnemonic to you ethereum account. Next, add your Infura endpoint address to the infuraKey variable in the truffle-config.js file. You can already find the project deployed on the Rinkeby testnet here: https://rinkeby.etherscan.io/address/0xa3bf4F8A3B5c3B6ee74aB018ecCFf5a1b89D1c04
