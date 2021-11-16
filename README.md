@@ -26,7 +26,7 @@ truffle test
 ``` 
 
 ## Run the project
-# Deploy to a local blockchain
+### Deploy to a local blockchain
 First start the Truiffle development enviroment. Run the following command, which will launch a local ethereum blockchain on 127.0.0.1:9454 as well as the development enviroment:
 ```
 truffle develop
@@ -37,7 +37,7 @@ compile
 migrate --reset
 ```
 
-## Deploy to the Rinkeby testnet
+### Deploy to the Rinkeby testnet
 First start the Truiffle development enviroment. Run the following commands to compile the code and deploy to the Rinkeby testnet (deployment make take a few minutes):
 ```
 compile
