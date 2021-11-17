@@ -23,7 +23,7 @@ If you want to modify the testing of the project, you can modify the TestStartNo
 ```
 truffle compile
 truffle test
-``` 
+```
 
 ## Run the project
 ### Deploy to a local blockchain
