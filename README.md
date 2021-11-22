@@ -36,6 +36,10 @@ Next, compile the code and deploy from the Truffle development enviroment using 
 compile
 migrate --reset
 ```
+Then, run the frontend from the terminal using the command:
+```
+npm run dev
+```
 
 ### Deploy to the Rinkeby testnet
 First start the Truffle development enviroment. Run the following commands to compile the code and deploy to the Rinkeby testnet (deployment make take a few minutes):
