@@ -47,7 +47,7 @@ First start the Truffle development enviroment. Run the following commands to co
 compile
 migrate --reset --network rinkeby
 ```
-Then, run from the terminal the frontend to interact with the contract:
+Then, run the frontend from the terminal to interact with the contract:
 ```
 npm run dev
 ```
