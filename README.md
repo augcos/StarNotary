@@ -48,3 +48,7 @@ compile
 migrate --reset --network rinkeby
 ```
 In order for this deployment to be successfull, you will need to do two changes to the project. First, create a file in the same directory as truffle-config.js named .secret with the mnemonic to you ethereum account. Next, add your Infura endpoint address to the infuraKey variable in the truffle-config.js file. You can already find the project deployed on the Rinkeby testnet here: https://rinkeby.etherscan.io/address/0xa3bf4F8A3B5c3B6ee74aB018ecCFf5a1b89D1c04
+Then, run from the terminal the frontend to interact with the contract:
+```
+npm run dev
+```
